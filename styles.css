@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+.landing-flex-container{
+    /*display: flex;*/
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vh;
+}
+
+.landing-box{
+    /*border: solid;
+    flex: 1;
+    text-align: center;
+    height: 100%;
+    width: 100%;*/
+    flex: 1;
+    display: flex;
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
